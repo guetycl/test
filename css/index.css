@@ -57,5 +57,5 @@ body {
 
 .viewport .column:nth-child(3) {
     flex: 3;
-    background-color: palevioletred;
+    background-color: #e33333;
 }
