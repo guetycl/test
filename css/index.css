@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+em, i {
+    font-style: normal;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    color: #666;
+}
+
+a:hover {
+    color: #e33333;
+}
+
+body {
+    background: url(/images/bg.jpg) no-repeat;
+    background-size: cover;
+}
+
+.viewport {
+    display: flex;
+    min-width: 12.8rem;
+    max-width: 24rem;
+    min-height: 9.75rem;
+    margin: 0 auto;
+    padding: 1.1rem .25rem 0;
+    background: url(/images/logo.png) no-repeat;
+    background-size: contain;
+}
+
+.viewport .column {
+    flex: 3;
+    background-color: palegreen;
+}
+
+.viewport .column:nth-child(2) {
+    flex: 4;
+    background-color: paleturquoise;
+}
+
+.viewport .column:nth-child(3) {
+    flex: 3;
+    background-color: palevioletred;
+}
