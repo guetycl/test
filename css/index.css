@@ -57,5 +57,5 @@ body {
 
 .viewport .column:nth-child(3) {
     flex: 3;
-    background-color: #e33333;
+    background-color: pink;
 }
